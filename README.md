@@ -1,4 +1,4 @@
-This project finetunes a bert to understand swahili proverbs.
+This project finetunes gpt2 to understand swahili proverbs.
 
 There is python code for tokenization and training.
 
