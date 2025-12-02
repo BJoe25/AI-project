@@ -11,7 +11,7 @@ African Manners blog – public compilations of cultural sayings.
 Other educational sites like Rough Guides and Pristine Trails, which list proverbs as part of cultural heritage.
 
 These are traditional oral traditions in the public domain. No personal data is included, and the dataset was manually curated and anonymized.
-The dataset is available as swahili_proverbs.csv with columns: input (proverb), output (explanation), metadata (source note).
+The dataset is available as data.csv with columns: input (proverb), output (explanation), metadata (source note).
 
 Setup:
 
@@ -20,24 +20,22 @@ Clone the repo (optional GitHub: [link if uploaded]).
 Download base GPT-2 model via Hugging Face.
 
 
+
 How to Run:
 
 Prepare Dataset:
 
-Run dataset_prep.py (if separate) or use the inline code to generate swahili_proverbs.csv.
-
+Use the inline code to generate data.csv.
 
 Fine-Tune:
 
 Run the fine-tuning script: python FineTuning.py
 Outputs model to ./fine_tuned_gpt2.
 
-
 Evaluate:
 
 Run the evaluation script: python ModelEvaluation.py --data_path data.csv
 Outputs BLEU scores and sample comparisons to results/eval_results.json.
-
 
 Example Usage:
 
