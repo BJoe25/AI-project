@@ -15,7 +15,7 @@ The dataset is available as data.csv with columns: input (proverb), output (expl
 
 Setup:
 
-Install dependencies (Python 3.8+): pip install torch transformers datasets evaluate pandas
+Install dependencies (Python 3.8+): pip install torch transformers[torch] datasets evaluate pandas
 Clone the repo (optional GitHub: [link if uploaded]).
 Download base GPT-2 model via Hugging Face.
 
