@@ -11,7 +11,7 @@ These are traditional oral traditions in the public domain. No personal data is 
 The dataset is available as swahili_proverbs.csv with columns: input (proverb), output (explanation), metadata (source note).
 Setup
 
-Install dependencies (Python 3.8+):textpip install torch transformers datasets evaluate pandas
+Install dependencies (Python 3.8+): pip install torch transformers datasets evaluate pandas
 Clone the repo (optional GitHub: [link if uploaded]).
 Download base GPT-2 model via Hugging Face.
 
@@ -25,7 +25,7 @@ Run the fine-tuning script:textpython fine_tune.py
 Outputs model to ./fine_tuned_gpt2.
 
 Evaluate:
-Run the evaluation script:textpython evaluate.py --data_path swahili_proverbs.csv
+Run the evaluation script: python evaluate.py --data_path swahili_proverbs.csv
 Outputs BLEU scores and sample comparisons to results/eval_results.json.
 
 Example Usage:
